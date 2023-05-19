@@ -9,24 +9,24 @@ services:
     healthCheckPath: /
     envVars:
       - key: PORT
-        value: 5244
+        value: 8088
       - key: DB_TYPE
-        value: mysql
+        value: postgresql
       - key: DB_HOST
-        # value: db_host
+         value: db.bit.io
         sync: false
       - key: DB_PORT
-        # value: 3306
+         value: 5432
       - key: DB_USER
-        # value: db_user
+         value: stevessr
         sync: false
       - key: DB_PASS
-        # value: db_password
+         value: v2_44UCS_SDkqDbgH9Q6TnQRUKc8WkHr
         sync: false
       - key: DB_NAME
-        # value: alist
+         value: stevessr/steve
         sync: false
       - key: DB_TABLE_PREFIX
-        value: alist_
+        value: Bli_
       - key: CDN
         value: https://npm.elemecdn.com/alist-web@$version/dist
