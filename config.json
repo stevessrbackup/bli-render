@@ -3,19 +3,19 @@
   "address": "0.0.0.0",
   "port": 5244,
   "jwt_secret": "random generated",
-  "token_expires_in": 48,
+  "token_expires_in": 4800,
   "site_url": "",
   "cdn": "",
   "database": {
-    "type": "mysql",
-    "host": "",
-    "port": 0,
-    "user": "",
-    "password": "",
-    "name": "",
-    "db_file": "data/data.db",
+    "type": "postgresql",
+    "host": "db.bit.io",
+    "port": 5432,
+    "user": "stevessr",
+    "password": "v2_44UCS_SDkqDbgH9Q6TnQRUKc8WkHr",
+    "name": "stevessr/steve",
+    "db_file": "",
     "table_prefix": "x_",
-    "ssl_mode": ""
+    "ssl_mode": "disable"
   },
   "scheme": {
     "https": false,
