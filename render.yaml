@@ -3,7 +3,7 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/Dcklin/alist-render.git # optional
+    repo: https://github.com/stevessrbackup/bli-render-render.git # optional
     region: singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
@@ -16,7 +16,7 @@ services:
         # value: db_host
         sync: false
       - key: DB_PORT
-        value: 3306
+        # value: 3306
       - key: DB_USER
         # value: db_user
         sync: false
