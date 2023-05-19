@@ -13,7 +13,7 @@ services:
       - key: DB_TYPE
         value: postgresql
       - key: DB_HOST
-         value: https://db.bit.io
+        value: db.bit.io
         sync: false
       - key: DB_PORT
          value: 5432
