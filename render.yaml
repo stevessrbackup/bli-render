@@ -16,15 +16,15 @@ services:
         value: db.bit.io
         sync: false
       - key: DB_PORT
-         value: 5432
+        value: 5432
       - key: DB_USER
-         value: stevessr
+        value: stevessr
         sync: false
       - key: DB_PASS
-         value: v2_44UCS_SDkqDbgH9Q6TnQRUKc8WkHr
+        value: v2_44UCS_SDkqDbgH9Q6TnQRUKc8WkHr
         sync: false
       - key: DB_NAME
-         value: stevessr/steve
+        value: stevessr/steve
         sync: false
       - key: DB_TABLE_PREFIX
         value: Bli_
